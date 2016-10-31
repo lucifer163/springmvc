@@ -10,4 +10,9 @@ public class TestController {
 	public String index() {
 		return "index";
 	}
+
+	@RequestMapping("/index/login.html")
+	public String login() {
+		return "login";
+	}
 }
